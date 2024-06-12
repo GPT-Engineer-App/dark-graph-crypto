@@ -1,6 +1,5 @@
-// Update this page (the content is just a fallback if you fail and example)
-// Use chakra-ui
 import { Container, Text, VStack } from "@chakra-ui/react";
+import CryptoPriceGraph from "../components/CryptoPriceGraph";
 
 // Example of using react-icons
 // import { FaRocket } from "react-icons/fa";
@@ -10,8 +9,8 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Your Blank Canvas</Text>
-        <Text>Chat with the agent to start making edits.</Text>
+        <Text fontSize="2xl" color="white">Cryptocurrency Price Graph</Text>
+        <CryptoPriceGraph />
       </VStack>
     </Container>
   );
